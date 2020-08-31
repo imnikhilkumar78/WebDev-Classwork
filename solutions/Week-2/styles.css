@@ -14,32 +14,12 @@ h1 {
 	color: black;
 	font-size: 50px;
 }
-@media (min-width: 1200px) {
-	.col-lg-4 {
-		float: left;
-		width: 33.33%
-	}
+
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-@media (min-width: 767px) and (max-width: 1199px){
-	.col-md-6,.col-md-12 {
-		float: left;
-	}
-	.col-md-6 {
-		width: 50%;
-	}
-	.col-md-12 {
-		width: 100%;
-	}
-
-}
-
-@media (min-width: 0px) and (max-width: 766px) {
-	.col-sm-12 {
-		float: left;
-		width: 100%;
-	}
-}
 
 .box {
 	width: 100%;
@@ -104,10 +84,38 @@ h1 {
 	color: black;
 	font-size:25px;
 	padding: 2%;
-	padding-top: 55px; 
+	padding-top: 67px; 
+
 
 }
 
 
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%
+	}
+}
+
+@media (min-width: 767px) and (max-width: 1199px){
+	.col-md-6,.col-md-12 {
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	
+
+}
+
+@media (min-width: 0px) and (max-width: 766px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
 
 
